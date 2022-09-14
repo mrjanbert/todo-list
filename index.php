@@ -38,7 +38,7 @@
       <!-- Content Header (Page header) -->
       <section class="content-header">
         <div class="container-fluid">
-          <div class="row mt-5 mb-2">
+          <div class="row mt-3 mb-2">
             <div class="col-sm-6">
               <h1>To-do List</h1>
             </div>
@@ -169,7 +169,6 @@
   <script>
     $(function() {
       $('#example2').DataTable({
-        "paging": false,
         "lengthChange": false,
         "searching": false,
         "ordering": false,
