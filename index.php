@@ -102,11 +102,10 @@
           </div><!-- /.row -->
         </div><!-- /.container-fluid -->
       </section><!-- /.content -->
-
     </div>
   </div>
 
-  <!-- Add Payment -->
+  <!-- Add Todo -->
   <div class="modal fade" id="todo">
     <div class="modal-dialog modal-md modal-dialog-centered">
       <form action="config/add_task.php" method="POST" autocomplete="off">
@@ -145,7 +144,7 @@
       </form><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div>
-  <!-- Add Payments -->
+  <!-- Add Todo -->
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -169,12 +168,6 @@
   <!-- Page specific script -->
   <script>
     $(function() {
-      $("#example1").DataTable({
-        "responsive": true,
-        "lengthChange": false,
-        "autoWidth": false,
-        "buttons": [""]
-      }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
       $('#example2').DataTable({
         "paging": false,
         "lengthChange": false,
@@ -184,23 +177,7 @@
         "autoWidth": false,
         "responsive": true
       });
-      $("#example3").DataTable({
-        "responsive": true,
-        "lengthChange": false,
-        "autoWidth": false,
-        "buttons": [""],
-        "ordering": false
-      }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
     });
-    $(function() {
-      $('[data-toggle="tooltip"]').tooltip()
-    });
-  </script>
-
-  <script>
-    $(function() {
-      $('.select2').select2()
-    })
   </script>
 </body>
 
